@@ -1,0 +1,167 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+   
+
+}
+
+header{
+    background-color: black;
+    text-align: center;
+    color: white;
+    height: 100px;
+    padding: 25px;
+    font-family: Montserrat;
+    position: sticky;
+    top: 0px;
+}
+
+
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    
+    
+}
+nav ul li {
+
+    margin: 10px;
+    list-style: none;
+    margin: 15px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.maindiv{
+    border: 20px;
+    height: 490px;
+   border-radius: 20px;
+   background-color: white;
+
+   padding: 25px;
+   
+}
+.radius{
+    border-radius: 20px;
+
+}
+#videoframe{
+  height: 830px;
+}
+
+#row{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.col{
+    height: 420px;
+    width:280px ;
+    font-family:Montserrat ;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #E5E4E2;
+
+}
+.col:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transform: scale(1.05);
+    transition: 1s ease;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    font-family:Montserrat ;
+}
+
+span{
+    color: blue;
+}
+
+#buttons{
+    text-align: center;
+    
+}
+button{
+    border-radius: 10px;
+    padding: 20px;
+    margin: 30px;
+    font-size: larger;
+    width: 130px;
+    height: 70px;
+   
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+    transition: 1s ease;
+    cursor: pointer;
+}
+#dressid{
+    justify-content: center;
+    display: flex;
+}
+
+
+.dress{
+    height: 250px;
+    width: 400px;
+    /* border: solid black; */
+    margin: 10px;
+    border-radius: 10px;
+}
+
+#dressheight{
+height: 550px;
+}
+
+h1{
+    font-family:Montserrat ;
+}
+#banner{
+    height: 290px;
+}
+
+#footer{
+    height: 90px;
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.abt{
+    /* border: solid white; */
+    height: 100px;
+    width: 300px;
+    margin: 10px;
+    
+}
+#findus{
+    color: white;
+    font-family: Montserrat;
+}
+
+#lastdiv{
+    height: 150px;
+    background-color: black;
+    display: flex;
+    
+
+}
+.lastclass{
+    height: 120px;
+    width: 150px;
+    margin: 10px;
+    font-family: Montserrat;
+    color: white;
+    margin-left: 100px;
+}
